@@ -1,0 +1,7 @@
+{% for d in doors %}
+{% if d.pk == door_selected %}
+<li class="selected">{{d.name}}</li>
+	{% else %}
+		<li><a href="{{ d.get_absolute_url }}">{{d.name}}</a></li>
+	{% endif %}
+{% endfor %}

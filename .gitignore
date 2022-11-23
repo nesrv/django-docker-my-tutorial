@@ -1,0 +1,17 @@
+# local configuration files
+/.env
+
+# Mac OS X annoying files
+.DS_Store
+
+# IDE files
+/.idea/
+/.vscode/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# mypy cache
+/.mypy_cache/

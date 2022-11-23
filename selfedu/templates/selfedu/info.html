@@ -1,0 +1,14 @@
+{% extends 'selfedu/base.html' %}
+
+{% block content %}
+
+<h1>{{info.name}} ({{info.door}})</h1>
+
+
+{% if info.photo %}
+<p><img class="img-article-left" src="{{info.photo.url}}"></p>
+{% endif %}
+<br>
+<h3>@{{info.login}}</h3>
+
+{% endblock %}
